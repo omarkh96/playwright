@@ -3,14 +3,14 @@
     "target": "ES2022",
     "module": "commonjs",
     "moduleResolution": "node",
-    "baseUrl": ".",
-    "ignoreDeprecations": "6.0",
     "strict": true,
+    "noUnusedLocals": false,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "outDir": "./dist",
     "rootDir": "./",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "types": ["@playwright/test"]
   },
   "include": [
     "**/*.ts"
